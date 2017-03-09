@@ -1,0 +1,1 @@
+<a href="[field:typelink/]" title="咨询" class="barbook"></a>

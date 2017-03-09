@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<link href="/skin/css/style.css" rel="stylesheet">
+<script src="/skin/js/jquery.js"></script>
+<script src="/skin/js/functions.js"></script>
+<script src="/skin/js/nf_home.js"></script>
+<script src="/skin/js/search.js"></script>
+<script src="/skin/js/jquery.superslide.2.1.1.js"></script>
+<script src="/skin/js/menu.js"></script>
+<!--[if IE 6]><script src="/skin/js/dd_belatedpng.js" ></script><![endif]-->
+<script src="/skin/js/jquery.validator.js"></script>
+<script src="/skin/js/zh_cn.js"></script>
+<script src="/skin/js/mobile.js"></script>
+<script src="/skin/js/jquery.tips.js"></script>
+</head>
+<body>
+{dede:include filename="head.htm"/}
+<div class="fyMain">
+  <p class="proname">ONLINE CONSULTATION</p>
+  <div class="kec">
+    <p class="prona1">| <font color="#000000">在线咨询</font> |</p>
+  </div>
+  <!--单页内容开始-->
+  <div class="productfra">
+    <div class="viewcon"> 
+      <!--在线留言开始-->
+      <div class="message">
+        <form action="/plus/diy.php" enctype="multipart/form-data" method="post">
+          <input type="hidden" name="action" value="post" />
+          <input type="hidden" name="diyid" value="1" />
+          <input type="hidden" name="do" value="2" />
+          <ul>
+            <li>
+              <p class="message_title"> <span class="c_red">*</span> 姓名： </p>
+              <p class="message_content">
+                <input type="text" name="name" size="30" maxlength="10" data-rule="姓名:required;" max="10" min="1">
+              </p>
+              <span class="errMsg" id="errMsg_nickname"> </span> </li>
+            <li>
+              <p class="message_title"> <span class="c_red">*</span> 手机： </p>
+              <p class="message_content">
+                <input type="text" name="tel" size="30" maxlength="11" data-rule="手机号码:required;mobile|tel" max="11" min="11">
+              </p>
+              <span class="errMsg" id="errMsg_telephone"> </span> </li>
+            <li class="contentb">
+              <p class="message_title"> <span class="c_red">*</span> 留言内容： </p>
+              <p class="message_content">
+                <textarea name="nr" cols="45" rows="5" data-rule="留言内容:required;"></textarea>
+              </p>
+              <span class="errMsg" id="errMsg_content"> </span> </li>
+            <input type="hidden" name="dede_fields" value="name,text;tel,text;nr,text" />
+            <input type="hidden" name="dede_fieldshash" value="79fa9899476642a86cea29624e727cee" />
+            <li class="yzm" style="padding-left:100px;">
+              <p class="message_sub">
+                <input type="submit" class="msg_submit_bg" title="提交留言" value="提交留言">
+              </p>
+            </li>
+          </ul>
+        </form>
+      </div>
+      
+      <!--在线留言结束--> 
+    </div>
+  </div>
+  <!--单页内容开始--> 
+</div>
+{dede:include filename="footer.htm"/}
+</body>
+</html>

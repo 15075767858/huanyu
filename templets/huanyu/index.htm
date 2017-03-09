@@ -1,0 +1,226 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:global.cfg_webname/}</title>
+<meta name="description" content="{dede:global.cfg_description/}" />
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+<meta name="author" content="order by dede58.com" />
+<link href="/skin/css/style.css" rel="stylesheet">
+<script src="/skin/js/jquery.js"></script>
+<script src="/skin/js/functions.js"></script>
+<script src="/skin/js/nf_home.js"></script>
+<script src="/skin/js/search.js"></script>
+<script src="/skin/js/jquery.superslide.2.1.1.js"></script>
+<script src="/skin/js/menu.js"></script>
+<!--[if IE 6]><script src="/skin/js/dd_belatedpng.js" ></script><![endif]-->
+<script src="/skin/js/jquery.validator.js"></script>
+<script src="/skin/js/zh_cn.js"></script>
+<script src="/skin/js/mobile.js"></script>
+<script src="/skin/js/c.js"></script>
+<script src="/skin/js/page-comment.js"></script>
+<script>$(function(){$("#cur").addClass("cur");})</script>
+</head>
+<body>
+{dede:include filename="head.htm"/}
+<!--最新活动开始-->
+<div class="activity">
+  <p class="proname">THE LATEST ACTIVITY</p>
+  <div class="kec">
+    <p class="prona1">| <font color="#000000">最新活动</font> |</p>
+  </div>
+  <div class="clear"></div>
+  <div class="www51buycom">
+    <ul class="51buypic">
+      {dede:arclist typeid='3' row='4' titlelen='50' orderby='pubdate' infolen='300'}
+      <li><a href="[field:arcurl/]" title="[field:title/]"><img class="imgfra" src="[field:picname/]" alt="[field:title/]" width="294" height="219" />
+        <div class="acright">
+          <h4>[field:title/]</h4>
+          <p class="accon">　　[field:info/]...</p>
+        </div>
+        </a></li>
+      {/dede:arclist}
+    </ul>
+    <a class="prev" href="javascript:void(0)" title="prev"></a> <a class="next" href="javascript:void(0)" title="next"></a>
+    <div class="num">
+      <ul>
+      </ul>
+    </div>
+  </div>
+  <script>
+/*鼠标移过，左右按钮显示*/
+$(".www51buycom").hover(function(){
+	$(this).find(".prev,.next").fadeTo("show",1);
+},function(){
+	$(this).find(".prev,.next").show();
+})
+/*鼠标移过某个按钮 高亮显示*/
+$(".prev,.next").hover(function(){
+	$(this).fadeTo("show",1);
+},function(){
+	$(this).fadeTo("show",1);
+})
+$(".www51buycom").slide({ titCell:".num ul" , mainCell:".51buypic" , effect:"fold", autoPlay:true, delayTime:700 , autoPage:true });
+</script>
+  <div class="viewmore">
+    <label>&nbsp;</label>
+    {dede:type typeid='3'} <a href="[field:typelink/]"  title="查看更多">查看更多</a>{/dede:type}
+    <label>&nbsp;</label>
+  </div>
+</div>
+<!--最新活动结束--> 
+
+<!--服务项目开始-->
+<div class="case">
+  <p class="proname">SERVICE PROJECT</p>
+  <div class="kec">
+    <p class="prona">| <font color="#000000">服务项目</font> |</p>
+  </div>
+  <!--搜索栏开始-->
+  <div class="lv_mmtopc">
+    <div class="search">
+      <form  name="formsearch" action="{dede:global.cfg_cmsurl/}/plus/search.php">
+        <input type="hidden" name="kwtype" value="0" />
+        <input type="text" class="text" name="q" value="请输入关键词"/>
+        <input type="submit" title="搜索" class="button" value=""/>
+      </form>
+    </div>
+  </div>
+  <!--搜索栏结束--> 
+  
+  <!--项目分类开始-->
+  <div class="prolanmu">
+    <div class="pro_lanfra"> {dede:channel type='son' row='10' typeid='4' currentstyle="
+      <li class='hover'><a href='~typelink~' ~rel~><span>~typename~</span></a></li>
+      "} <span> <a href="[field:typeurl/]" title="[field:typename/]">[field:typename/]</a> </span> {/dede:channel}
+      {dede:type typeid='4'} <a class="promore" href="[field:typelink/]"  title="查看更多">查看更多</a>{/dede:type} </div>
+  </div>
+  <!--项目分类结束-->
+  <div class="track"> 
+    <script language="javascript">
+$(document).ready(function() {$(".profra li .limg").hover(
+	   function(){
+		
+		   $(this).find(".wor").css({"background":"#22b38a"});
+		  
+	   },
+	   function(){
+		  
+		    $(this).find(".wor").css({"background":"#1a1d22"});
+	   }
+	)
+	
+});
+	
+</script>
+    <div class="profra">
+      <div class="view-port">
+        <ul class="slider-container">
+          <li class="item"> {dede:arclist typeid='4' titlelen='50' orderby='pubdate' limit='0,4'}
+            <div class="limg"><a class="img" href="[field:arcurl/]" title="[field:title/]"><img src="[field:picname/]" alt="[field:title/]" width="220" height="165" /></a><a class="wor" href="[field:arcurl/]" title="[field:title/]">[field:title/]</a></div>
+            {/dede:arclist} </li>
+          <li class="item"> {dede:arclist typeid='4' titlelen='50' orderby='pubdate' limit='5,4'}
+            <div class="limg"><a class="img" href="[field:arcurl/]" title="[field:title/]"><img src="[field:picname/]" alt="[field:title/]" width="220" height="165" /></a><a class="wor" href="[field:arcurl/]" title="[field:title/]">[field:title/]</a></div>
+            {/dede:arclist} </li>
+        </ul>
+      </div>
+      <div class="bullet-pagination"></div>
+    </div>
+  </div>
+  <script type="text/javascript" src="/skin/js/jquery-easing-1.3.0.js" ></script> 
+  <script type="text/javascript" src="/skin/js/jquery.silver_track.js"  charset="utf-8"></script> 
+  <script type="text/javascript" src="/skin/js/jslides.js" ></script> 
+  <script>
+var track = $(".slider-container").silverTrack();
+var parent = track.container.parents(".track");
+//下面三个小圆点
+track.install(new SilverTrack.Plugins.BulletNavigator({
+container: $(".bullet-pagination", parent)
+}));
+track.start();
+</script> 
+</div>
+<!--服务项目结束--> 
+
+<!--案例展示开始-->
+<div class="newsfra">
+  <p class="proname">RECRUITMENT INFORMATION</p>
+  <div class="kec">
+    <p class="prona1">| <font color="#000000">招聘信息</font> |</p>
+  </div>
+  <div class="news">
+    <ul class="newsul">
+      {dede:arclist typeid='12' row='4' titlelen='50' orderby='pubdate' infolen='100'}
+      <li><a href="[field:arcurl/]" title="[field:title/]"><em></em><img class="newsimg" src="[field:picname/]" alt="[field:title/]" width="100" height="75" />
+        <div class="newsword">
+          <p class="top"><span>[field:title/]…</span>
+            <label>[field:pubdate function="MyDate('Y/m/d',@me)"/]</label>
+          </p>
+          <div class="newscon">　　[field:info/]...</div>
+        </div>
+        </a></li>
+      {/dede:arclist}
+    </ul>
+    <p class="more">{dede:type typeid='12'} <a href="[field:typelink/]"  data-ignore="true" title="查看更多"><font>查看更多</font>To view more</a>{/dede:type} </p>
+  </div>
+</div>
+<!--案例展示结束-->
+
+<div class="newsframe">
+  <div class="news_fra"> 
+    <!--资讯中心开始-->
+    <div class="news_fleft">
+      <P class="p1"><span>资讯中心</span>
+        <label onclick="location='/a/zixunzhongxin/'">查看更多</label>
+      </P>
+      <p class="p2">THE LATEST INFORMATION</p>
+      <ul class="news_ful">
+        {dede:arclist typeid='2' row='5' titlelen='60' orderby='pubdate'}
+        <li><a href="[field:arcurl/]" title="[field:title/]">
+          <p>[field:title/]</p>
+          <span>[field:pubdate function="MyDate('Y-m-d',@me)"/]</span></a></li>
+        {/dede:arclist}
+      </ul>
+    </div>
+    <!--资讯中心结束--> 
+    
+    <!--联系方式开始-->
+    <div class="news_fright">
+      <p class="p1">咨询热线</p>
+      <p class="p2">+{dede:global.cfg_sjhm /}</p>
+      <div class="news_frcon" style=" cursor:pointer;">
+        <div class="news_frr">
+          <div class="news_mapcon">
+            <label>地址：</label>
+            <span>{dede:global.cfg_dizhi/}</span></div>
+          <div class="news_mapcon">
+            <label>电话：</label>
+            <span>{dede:global.cfg_dh /}</span></div>
+          <div class="news_mapcon">
+            <label>微信：</label>
+            <span>qq211687</span>
+          </div>
+          <span id="urlmap"><a title="查看详细地图" class="c_047" href="" onclick="showMapObj.show(117.400217,38.401522)">查看详细地图</a></span>
+
+        </div>
+        <p class="mapimg"><!--百度静态地图生成助手http://api.map.baidu.com/lbsapi/staticmap/staticmap-helper.html-->
+          <img src="http://api.map.baidu.com/staticimage?center=117.400217,38.401522&amp;width=150&amp;height=150&amp;zoom=11"  alt="地图"></p>
+      </div>
+    </div>
+    <!--联系方式结束--> 
+  </div>
+</div>
+{dede:include filename="footer.htm"/}
+</body>
+</html>
+
+<!--
+<div class="mapct">
+  <a class="mapimg" href="javascript:void(0)" onclick="showMapObj.show(117.400217,38.401522)" rel="nofollow">
+    <img src="http://api.map.baidu.com/staticimage?center=117.400217,38.401522&amp;width=638&amp;height=230&amp;zoom=11">
+  </a>
+  <span id="urlmap"><a title="查看详细地图" class="c_047" href="javascript:void(0)" onclick="showMapObj.show(117.400217,38.401522)">查看详细地图</a></span>
+  <input type="hidden" id="module-coordinate" value="117.400217,38.401522">
+  <input type="hidden" id="module-coordinate-name" value="黄骅市环宇五金厂">
+  <script type="text/javascript" src="http://api.map.baidu.com/api?v=1.4"></script><script type="text/javascript" src="http://api.map.baidu.com/getscript?v=1.4&amp;ak=&amp;services=&amp;t=20150522093217"></script>
+</div>-->

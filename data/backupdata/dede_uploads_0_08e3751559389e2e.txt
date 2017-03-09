@@ -1,0 +1,3 @@
+INSERT INTO `dede_uploads` VALUES('1','0','1-1F3052203410-L.png','/uploads/allimg/170305/1-1F3052203410-L.png','1','0','0','0','208771','1488722621','1');
+INSERT INTO `dede_uploads` VALUES('2','11','qq','/uploads/allimg/170305/1-1F305220426224.png','1','488','617','0','208771','1488722666','1');
+INSERT INTO `dede_uploads` VALUES('3','12','额我确认','/uploads/allimg/170305/1-1F3052209500-L.png','1','0','0','0','106259','1488722990','1');

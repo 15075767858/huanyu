@@ -1,0 +1,1 @@
+<div class="limg"><a class="img" href="[field:arcurl/]" title="[field:title/]"><img src="[field:picname/]" alt="[field:title/]" width="220" height="165" /></a><a class="wor" href="[field:arcurl/]" title="[field:title/]">[field:title/]</a></div>

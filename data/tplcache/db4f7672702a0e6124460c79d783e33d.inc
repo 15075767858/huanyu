@@ -1,0 +1,1 @@
+<div class="ls-layer"> <a href="#"  class="ls-link" target="_blank"><img src="[field:litpic/]" class="ls-bg"  border="0" /></a></div>

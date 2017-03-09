@@ -1,0 +1,36 @@
+<div id="wrapp">
+  <div id="header">
+    <div id="header-links">
+      <div class="container">
+        <div class="tel">{dede:global.cfg_gg/}</div>
+        <div id="top_right">
+          <ul id="head_ico">
+            <li  style="background: none;"><a href="http://wpa.qq.com/msgrd?v=3&uin={dede:global.cfg_qq/}&site=qq&menu=yes" target="_blank" rel="nofollow" class="a1">在线客服</a></li>
+          </ul>
+          <!--select--> 
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="head-wrapp">
+        <div class="logo" />
+        <a href="/" id="logo" title="{dede:global.cfg_webname/}"> <img src="/style/images/logo.png" alt="{dede:global.cfg_webname/}" /></a> </div>
+      <div id="main-navigation">
+        <div >
+          <ul class="navul">
+            <li class="first single"><a href="/" id="a0" class="li0 nomol primary" onmouseover="Mea(0);">首页</a></li>
+            {dede:channelartlist row=7 typeid='top'}
+            <li class="navlm"><a href='{dede:field name='typeurl'/}' id="a{dede:global.itemindex/}" class="li0  primary" onmouseover="Mea({dede:global.itemindex/});">{dede:field name='typename'/}</a>
+              <div class="gdropdown list01">
+                {dede:channel type='son' noself='yes'}
+                <dt><a href='[field:typelink/]'>[field:typename/]</a></dt>
+                {/dede:channel}
+              </div>
+            </li>
+            {/dede:channelartlist}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

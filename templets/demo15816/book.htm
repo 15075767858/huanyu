@@ -1,0 +1,98 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta http-equiv="X-UA-Compatible" content="IE=100" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<meta name="applicable-device"content="pc,mobile" />
+<link href="/style/css/style.css" type="text/css" rel="stylesheet" media="screen" />
+<link href="/style/css/sub.css" type="text/css" rel="stylesheet" media="screen" />
+<link href="/style/css/responsive.css" type="text/css" rel="stylesheet" media="screen" />
+<script type="text/javascript" src="/style/js/jquery.min.js"></script>
+<!--[if lt IE 9]><script  type="text/javascript"  src="/style/js/css3-mediaqueries.js"></script><![endif]-->
+<script src="/style/js/nav.js" type="text/javascript"></script>
+<script src="/style/js/sohuflash_1.js" type="text/javascript"></script>
+<script>
+  function check()
+  {
+	xm=document.getElementById("xm").value;
+	if(xm=="")
+	{
+		alert("请输入姓名！")
+		return false;
+	}
+	
+	dh=document.getElementById("dh").value;
+	if(dh=="")
+	{
+		alert("请输入手机！")
+		return false;
+	}
+	
+	yx=document.getElementById("yx").value;
+	if(yx=="")
+	{
+		alert("请输入邮箱！")
+		return false;
+	}
+
+	nr=document.getElementById("nr").value;
+	if(nr=="")
+	{
+		alert("请输入内容！")
+		return false;
+	}
+  }
+ 
+</script>
+<!--[if IE 6]>
+<script>
+ DD_belatedPNG.fix('.sub_contact_l');
+ DD_belatedPNG.fix('.cul-nav ul li .cul-nav-bg');
+</script>
+<![endif]-->
+</head>
+<body>
+{dede:include filename="head.htm"/}
+<div class="sub_ban"> <img src='/style/images/ban_1.jpg' class="img" /> </div>
+<div class="sub_menu">
+  <ul id="secmenu">
+    <li class="cur"> {dede:field.typeid runphp='yes'}$ID = @me; $sql = "SELECT * FROM `dede_arctype` WHERE id=$ID";$query = mysql_query($sql);$row=mysql_fetch_array($query); $relID = "$row[reid]"; if($relID == 0) {@me = $row[typename];}else{$sql = "SELECT `typename` FROM `dede_arctype` WHERE id=$relID";$query = mysql_query($sql);$row=mysql_fetch_array($query); @me = $row[typename];}{/dede:field.typeid} </li>
+    {dede:channel type='son'}
+    <li id='leftMenu_101001'><a href='[field:typeurl/]'>[field:typename/]</a></li>
+    {/dede:channel}
+  </ul>
+  <span> {dede:field.position/} </span> </div>
+<div class="content">
+  <div class="sub_about">
+  <form action="/plus/diy.php" enctype="multipart/form-data" method="post" onSubmit="return check()">
+<input type="hidden" name="action" value="post" />
+<input type="hidden" name="diyid" value="1" />
+<input type="hidden" name="do" value="2" />
+
+    <dl class="book">
+    	<dt></dt>
+    	<dd>您的姓名：<input type="text" class="k" name='xm' id='xm' placeholder="请输入您的姓名" /></dd>
+        <dd>您的电话：<input type="text" class="k" name='dh' id='dh' placeholder="请输入您的电话" /></dd>
+        <dd>您的邮箱：<input type="text" class="k" name='yx' id='yx' placeholder="请输入您的邮箱" /></dd>
+        <dd><span>留言内容：</span><textarea name='nr' id='nr' placeholder="请输入留言内容"></textarea></dd>
+        <dd><input type="submit" class="t"></dd>
+    </dl>
+    <input type="hidden" name="dede_fields" value="xm,text;dh,text;yx,text;nr,multitext" />
+<input type="hidden" name="dede_fieldshash" value="fac6c19ac87071ab4b7cbb93d3a4d258" />
+  </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!--main end-->
+
+</div>
+{dede:include filename="foot.htm"/}
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!--网站公告开始-->
+
+<div class="notice">
+  <div class="main">
+    <div class="noticecon"><b>网站公告：</b>
+      <marquee scrollamount="2" scrolldelay="5" onMouseOut="this.start()" onMouseOver="this.stop()">
+      诚信为本，市场永远在变，诚信永远不变
+      </marquee>
+    </div>
+  </div>
+</div>
+<!--网站公告结束--> 
+
+<!--顶部开始-->
+<div class="header">
+  <div class="main"> <a href="/"  title="{dede:global.cfg_webname/}" class="logo"> <img src="/skin/images/logo.png"  width="300px" alt="{dede:global.cfg_webname/}" ></a>
+    <div class="tel"><span>咨询热线</span>
+      <p>{dede:global.cfg_sjhm/}</p>
+    </div>
+  </div>
+</div>
+<!--顶部结束-->
+
+<div class="clear"></div>
+
+<!--幻灯片图片开始-->
+<div class="q_banfra">
+  <div class="q_banyin"></div>
+  <div class="nf_width_control js_nf_width_control">
+    <div class="main_content">
+      <div class="nf_hp_kv js_nf_hp_kv">
+        <div class="window js_window">
+          <div style="display: none;" class="kv_item" data-bg="/skin/images/banner1.jpg"></div>
+          <div style="display: none;" class="kv_item" data-bg="/skin/images/banner2.jpg"></div>
+          <div style="display: none;" class="kv_item" data-bg="/skin/images/banner3.jpg"></div>
+        </div>
+        <div style="width:100%; height: 5px;left: 2%; position: absolute; bottom:0px; z-index:200; dis/play:none;">
+          <ul  class="nav js_nav">
+          </ul>
+        </div>
+        <div  class="btn_prev js_btn_prev"><a href="javascript:;"></a></div>
+        <div class="btn_next js_btn_next"><a href="javascript:;"></a></div>
+      </div>
+    </div>
+  </div>
+</div>
+<!--幻灯片图片结束--> 
+
+<!--导航开始-->
+<div class="menu">
+  <ul class="nav">
+    <li><a title="网站首页" href="/" >网站首页</a></li>
+    {dede:channelartlist typeid='top'}
+    <li><a title="{dede:field name='typename'/}" href="{dede:field name='typeurl'/}">{dede:field name='typename'/}</a>
+      <dl>
+        {dede:channel type='son' noself='yes'}
+        <dd><a title="[field:typename/]" href="[field:typeurl/]">[field:typename/]</a></dd>
+        {/dede:channel}
+      </dl>
+    </li>
+    {/dede:channelartlist}
+  </ul>
+</div>
+<!--导航结束--> 

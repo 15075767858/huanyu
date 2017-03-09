@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html style="font-size: 120px;">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<title>{dede:global.cfg_webname/}移动版</title>
+<meta name="description" content="{dede:global.cfg_description/}" />
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+<link rel="stylesheet" type="text/css" href="/m/skin/css/subpage.css">
+<script src="/m/skin/js/jquery.js"></script>
+<script src="/m/skin/js/nav.js"></script>
+<style>
+.head {
+	background: #000000
+}
+.foot {
+	background: #000000
+}
+.nav {
+	background: #009269
+}
+.nav_color {
+	background: #009269
+}
+</style>
+<script src="/m/skin/js/respond.js"></script>
+<script src="/m/skin/js/sdcms.js"></script>
+<script src="/m/skin/js/jquery.validator.js"></script>
+<link rel="stylesheet" type="text/css" href="/m/skin/css/master.css">
+<link rel="stylesheet" type="text/css" href="/m/skin/css/swiper.css">
+<script src="/m/skin/js/swipe.js"></script>
+<script src="/m/skin/js/lihe.js"></script>
+<script src="/m/skin/js/share.js"></script>
+<link rel="stylesheet" href="/m/skin/css/share_style0_32.css">
+</head>
+<body>
+<!--导航开始--> 
+{dede:include filename="header_m.htm"/} 
+<!--导航结束--> 
+
+<!--内容开始-->
+<div class="allpage">
+  <div class="black-fixed iconfont"></div>
+  <!--页头开始-->
+  <div class="header">
+    <div class="head"> <a href="index.php" title="{dede:global.cfg_webname/}" class="logo"> <img src="/m/skin/images/logo.png"> </a>
+      <div class="nav-btn iconfont"></div>
+      <div class="search_hl iconfont"></div>
+      <div class="search" style="display: block;">
+        <form class="am-topbar-form am-topbar-left am-form-inline am-topbar-right" role="search" action="{dede:global.cfg_cmsurl/}/plus/search.php">
+          <input type="hidden" name="mobile" value="1" />
+          <input type="hidden" name="kwtype" value="0" />
+          <a class="xbtn iconfont" href="javascript:;"></a>
+          <input type="text" name="q" class="search-input" placeholder="请输入搜索关键词">
+          <input type="submit" class="search-btn iconfont" value="">
+        </form>
+      </div>
+    </div>
+  </div>
+  <!--页头结束-->
+  <div class="content content_new"> 
+    <!--首页导航开始-->
+    <div class="nav_new tpp">
+      <ul>
+        {dede:type typeid='1'}
+        <li><a href="list.php?tid=[field:id/]" title="[field:typename/]">[field:typename/]</a></li>
+        {/dede:type} 
+        
+        {dede:type typeid='2'}
+        <li><a href="list.php?tid=[field:id/]" title="[field:typename/]">[field:typename/]</a></li>
+        {/dede:type} 
+        {dede:type typeid='3'}
+        <li><a href="list.php?tid=[field:id/]" title="[field:typename/]">[field:typename/]</a></li>
+        {/dede:type} 
+        {dede:type typeid='4'}
+        <li><a href="list.php?tid=[field:id/]" title="[field:typename/]">[field:typename/]</a></li>
+        {/dede:type} 
+        {dede:type typeid='10'}
+        <li><a href="list.php?tid=[field:id/]" title="[field:typename/]">[field:typename/]</a></li>
+        {/dede:type} 
+        {dede:type typeid='11'}
+        <li><a href="list.php?tid=[field:id/]" title="[field:typename/]">[field:typename/]</a></li>
+        {/dede:type} 
+        {dede:type typeid='12'}
+        <li><a href="list.php?tid=[field:id/]" title="[field:typename/]">[field:typename/]</a></li>
+        {/dede:type} 
+        {dede:type typeid='13'}
+        <li><a href="list.php?tid=[field:id/]" title="[field:typename/]">[field:typename/]</a></li>
+        {/dede:type}
+      </ul>
+      <div class="c"></div>
+    </div>
+    <!--首页导航开始--> 
+    
+    <!--幻灯片图片开始-->
+    <div class="bannerfra">
+      <div class="banner">
+        <div class="swiper-container swiper-container-horizontal swiper-container-android">
+          <div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(-620px, 0px, 0px);">
+            <div class="swiper-slide swiper-slide-duplicate swiper-slide-prev" data-swiper-slide-index="1" style="width: 620px;"><img src="/m/skin/images/banner.jpg"></div>
+            <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0" style="width: 620px;"><img src="/m/skin/images/banner.jpg"></div>
+            <div class="swiper-slide swiper-slide-next" data-swiper-slide-index="1" style="width: 620px;"><img src="/m/skin/images/banner.jpg"></div>
+            <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0" style="width: 620px;"><img src="/m/skin/images/banner.jpg"></div>
+          </div>
+          <div class="swiper-pagination swiper-pagination-clickable"><span class="swiper-pagination-bullet swiper-pagination-bullet-active"></span><span class="swiper-pagination-bullet"></span></div>
+        </div>
+      </div>
+    </div>
+    <!--幻灯片图片结束--> 
+    
+    <!--服务项目开始-->
+    <div class="honor_i">
+      <div class="clear"></div>
+      <div class="topfra">
+        <div class="more_i"><span>服务项目</span></div>
+        <!--项目分类开始-->
+        <div class="proliul"> {dede:channel type='son' row='10' typeid='4' currentstyle=" <a href='list.php?tid=~id~' ~rel~><span>~typename~</span></a> "} <a href="list.php?tid=[field:id/]" title="[field:typename/]">[field:typename/]</a> {/dede:channel} </div>
+        <!--项目分类结束--> 
+      </div>
+      <div class="clear"></div>
+      <div class="honor_i_c">
+        <ul>
+          {dede:arclist typeid='4' row='4' titlelen='50' orderby='pubdate'}
+          <li><a href="view.php?aid=[field:id/]" title="[field:title/]"><img src="[field:picname/]" alt="[field:title/]">
+            <div><span>[field:title/]</span></div>
+            </a></li>
+          {/dede:arclist}
+        </ul>
+        <div class="c"></div>
+        <div class="more_im">{dede:type typeid='4'} <a href="list.php?tid=[field:id/]">查看更多</a>{/dede:type} </div>
+      </div>
+    </div>
+    <!--服务项目结束-->
+    <div class="clear"></div>
+    <!--关于我们开始-->
+    <div class="about_i">
+      <div class="clear"></div>
+      <div class="more_i aa"><span>关于我们</span></div>
+      <div class="clear"></div>
+      <div class="about_i_c">
+        <p>{dede:sql sql='Select content from dede_arctype where id=1'} 
+          [field:content  function='cn_substr(html2text(@me),400)'/]...
+          {/dede:sql}</p>
+      </div>
+      <div class="more_im">{dede:type typeid='1'} <a href="list.php?tid=[field:id/]">查看更多</a>{/dede:type}</div>
+    </div>
+    <!--关于我们结束--> 
+    
+    <!--师资力量开始-->
+    <div class="honor_i">
+      <div class="more_i aa"><span>师资力量</span></div>
+      <div class="clear"></div>
+      <div class="honor_i_c ss">
+        <ul>
+          {dede:arclist typeid='11' row='4' titlelen='50' orderby='pubdate'}
+          <li><a href="view.php?aid=[field:id/]" title="[field:title/]"><img src="[field:picname/]" alt="[field:title/]">
+            <div><span>[field:title/]</span></div>
+            </a></li>
+          {/dede:arclist}
+        </ul>
+        <div class="c"></div>
+      </div>
+      <div class="more_im">{dede:type typeid='11'} <a href="list.php?tid=[field:id/]" class="mm1">查看更多</a>{/dede:type}</div>
+    </div>
+    <!--师资力量结束--> 
+    
+    <!--最新活动开始-->
+    <div class="case_i">
+      <div class="more_i aa"><span>最新活动</span></div>
+      <div class="clear"></div>
+      <div class="case_i_c ">
+        <ul>
+          {dede:arclist typeid='3' row='5' titlelen='50' orderby='pubdate'}
+          <li><a href="view.php?aid=[field:id/]" title="[field:title/]"><span>[field:pubdate function="MyDate('Y-m-d',@me)"/]</span>
+            <h2 style="font-weight:bold;color:#002060">[field:title/]</h2>
+            </a></li>
+          {/dede:arclist}
+        </ul>
+      </div>
+      <div class="clear"></div>
+      <div class="more_im">{dede:type typeid='3'} <a href="list.php?tid=[field:id/]" class="mm1">查看更多</a>{/dede:type}</div>
+    </div>
+    <!--最新活动结束--> 
+    
+    <!--案例展示开始-->
+    <div class="honor_i">
+      <div class="more_i aa"><span>案例展示</span></div>
+      <div class="clear"></div>
+      <div class="honor_i_c ss">
+        <ul>
+          {dede:arclist typeid='12' row='4' titlelen='50' orderby='pubdate'}
+          <li><a href="view.php?aid=[field:id/]" title="[field:title/]"><img src="[field:picname/]" alt="[field:title/]">
+            <div><span>[field:title/]</span></div>
+            </a></li>
+          {/dede:arclist}
+        </ul>
+      </div>
+      <div class="clear"></div>
+      <div class="more_im">{dede:type typeid='12'} <a href="list.php?tid=[field:id/]" class="mm1">查看更多</a>{/dede:type}</div>
+    </div>
+    <!--案例展示结束--> 
+    
+    <!--联系我们开始-->
+    <div class="baoming">
+      <div class="more_i bb"><span>联系我们</span></div>
+      <span class="sp1">地址：这里是您的公司地址</span>
+      <div class="adtel">
+        <label class="iconfont1"></label>
+        <span>+86-0000-96877</span><a href="tel:+86-0000-96877" title="立即预约">立即预约</a>
+        <div class="c"></div>
+      </div>
+    </div>
+    <!--联系我们结束-->
+    
+    <div class="beian">技术支持：<a title="织梦58" target="_blank" href="http://www.dede58.com/">织梦58</a><a title="织梦58" target="_blank" href="http://www.dede58.com/">【织梦58】</a>　</div>
+  </div>
+  {dede:include filename="footer_m.htm"/} </div>
+<!--内容结束-->
+
+</body>
+</html>
