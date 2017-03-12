@@ -1,7 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f2ec49c2-ae35-4a82-a8fe-baba9ca986bd" name="Default" comment="" />
+    <list default="true" id="f2ec49c2-ae35-4a82-a8fe-baba9ca986bd" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_addonarticle_0_9f9097b00088f361.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_admin_0_996c3856536d48ea.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_admintype_0_caab665a99a8049c.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_arcatt_0_3140f70686fc7fea.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_archives_0_e1e83801d43e1bf2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_arcmulti_0_8883afe9abd5176d.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_arcrank_0_7a6b9ed41094de19.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_arctiny_0_ab1cb29e35da15db.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_arctype_0_e9239655672c594c.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_area_0_466a29ecc4ecc39c.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_channeltype_0_3d0f89d1877edb62.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_co_onepage_0_67232d7025b7c5f1.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_flink_0_a7bffc1fe3b018c7.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_flinktype_0_cad180770909c84b.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_freelist_0_611da691f3760c48.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_homepageset_0_e44696b59a7b8a5b.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_member_0_d521db50c7bdfaeb.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_member_group_0_d922d5b27330a580.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_member_model_0_283a4bc5e6487537.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_member_person_0_985b89b69caebd83.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_member_space_0_fe833a681e439ecf.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_member_stowtype_0_7980a348be8842dd.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_member_tj_0_dd4a21064716109b.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_member_type_0_09f66698ed4681d8.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_moneycard_type_0_6c504307d605093d.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_multiserv_config_0_7be4298739699d3c.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_myad_0_02dbe9d189f34c67.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_payment_0_7ca0f486a82692fe.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_plus_0_00501668086a4c0a.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_plus_seoinfo_0_8ae24a01be29b279.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_scores_0_eb79056691c8666d.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_shops_delivery_0_b154037e3ad058cb.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_softconfig_0_6831287cb4428fd5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_stepselect_0_bca9b43e5805153f.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_sys_enum_0_720e1843e091699a.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_sys_module_0_d8cacb66108bade5.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_sys_set_0_7df28a3a2eb95bd2.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_sysconfig_0_63b055c2734c5acd.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_uploads_0_08e3751559389e2e.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/dede_vote_0_eebb057c6a05a011.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/backupdata/tables_struct_68ec5956388135bf.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/sessions_4b89a81e74/sess_4aef723abd14fd66f7e083aff94a5266" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/chanpinzhanshi/qingwener/index.html" afterPath="$PROJECT_DIR$/a/chanpinzhanshi/qingwener/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/chanpinzhanshi/qingwener/list_14_1.html" afterPath="$PROJECT_DIR$/a/chanpinzhanshi/qingwener/list_14_1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/a/zhaopinxinxi/2017/0304/9.html" afterPath="$PROJECT_DIR$/a/zhaopinxinxi/2017/0304/9.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/inc_catalog_base.inc" afterPath="$PROJECT_DIR$/data/cache/inc_catalog_base.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/listcache/58/cc/fa/58ccfaedf4f192ca2eac4e40363ee721.php" afterPath="$PROJECT_DIR$/data/cache/listcache/58/cc/fa/58ccfaedf4f192ca2eac4e40363ee721.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/cache/memberlogin/c4/ca/42/c4ca4238a0b923820dcc509a6f75849b.php" afterPath="$PROJECT_DIR$/data/cache/memberlogin/c4/ca/42/c4ca4238a0b923820dcc509a6f75849b.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tplcache/index.htm1fdf39bf28dfdc82.inc" afterPath="$PROJECT_DIR$/data/tplcache/index.htm1fdf39bf28dfdc82.inc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/tplcache/index.htm1fdf39bf28dfdc82.inc.txt" afterPath="$PROJECT_DIR$/data/tplcache/index.htm1fdf39bf28dfdc82.inc.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templets/huanyu/index.htm" afterPath="$PROJECT_DIR$/templets/huanyu/index.htm" />
+    </list>
     <ignored path="htdocs.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -28,7 +81,28 @@
     <favorites_list name="htdocs" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="article_service.htm" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templets/huanyu/article_service.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.htm" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templets/huanyu/index.htm">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="98">
+              <caret line="79" column="25" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -36,6 +110,9 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -48,11 +125,13 @@
         <option value="$PROJECT_DIR$/templets/huanyu/footer.htm" />
         <option value="$PROJECT_DIR$/skin/js/page-comment.js" />
         <option value="$PROJECT_DIR$/skin/js/c.js" />
-        <option value="$PROJECT_DIR$/templets/huanyu/index.htm" />
         <option value="$PROJECT_DIR$/templets/huanyu/contact.htm" />
         <option value="$PROJECT_DIR$/templets/huanyu/article_zpxx.htm" />
         <option value="$PROJECT_DIR$/templets/huanyu/list_zpxx.htm" />
         <option value="$PROJECT_DIR$/data/common.inc.php" />
+        <option value="$PROJECT_DIR$/templets/huanyu/article_service_cpzs.htm" />
+        <option value="$PROJECT_DIR$/templets/huanyu/list_service_cpzs.htm" />
+        <option value="$PROJECT_DIR$/templets/huanyu/index.htm" />
       </list>
     </option>
   </component>
@@ -69,7 +148,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1280" />
-    <option name="height" value="716" />
+    <option name="height" value="710" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -97,7 +176,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -150,6 +228,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -164,11 +243,11 @@
     <property name="SearchEverywhereHistoryKey" value="channel.lib&#9;FILE&#9;file:///Applications/MAMP/htdocs/include/taglib/channel.lib.php" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/templets/huanyu" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/templets" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templets/huanyu" />
     </key>
   </component>
   <component name="RunManager">
@@ -250,24 +329,26 @@
       <workItem from="1488602020286" duration="10355000" />
       <workItem from="1488716207093" duration="2347000" />
       <workItem from="1488798596530" duration="96000" />
-      <workItem from="1489030192382" duration="548000" />
+      <workItem from="1489030192382" duration="2746000" />
+      <workItem from="1489039865230" duration="2000" />
+      <workItem from="1489303698419" duration="1607000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22807000" />
+    <option name="totallyTimeSpent" value="26614000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="716" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="23" width="1280" height="710" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27544427" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22374798" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32852563" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18932039" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -317,34 +398,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/bc2a491a-e902-4bbd-b5e5-055e1a911047/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templets/huanyu/footer.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templets/demo15816/head.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templets/demo15816/foot.htm">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templets/demo15816/index.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
@@ -624,10 +677,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templets/huanyu/index.htm">
+    <entry file="file://$PROJECT_DIR$/templets/huanyu/article_service_cpzs.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1020">
+          <caret line="68" column="12" selection-start-line="68" selection-start-column="12" selection-end-line="68" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#2;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/huanyu/list_service.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-150">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/huanyu/list_service_cpzs.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/huanyu/article_service.htm">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="185" column="4" selection-start-line="185" selection-start-column="4" selection-end-line="185" selection-end-column="4" />
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templets/huanyu/index.htm">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="79" column="25" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>

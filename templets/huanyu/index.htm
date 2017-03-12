@@ -25,14 +25,14 @@
 {dede:include filename="head.htm"/}
 <!--最新活动开始-->
 <div class="activity">
-  <p class="proname">THE LATEST ACTIVITY</p>
+  <p class="proname">Product Center</p>
   <div class="kec">
-    <p class="prona1">| <font color="#000000">最新活动</font> |</p>
+    <p class="prona1">| <font color="#000000">产品中心</font> |</p>
   </div>
   <div class="clear"></div>
   <div class="www51buycom">
     <ul class="51buypic">
-      {dede:arclist typeid='3' row='4' titlelen='50' orderby='pubdate' infolen='300'}
+      {dede:arclist typeid='13' row='8' titlelen='50' orderby='pubdate' infolen='300'}
       <li><a href="[field:arcurl/]" title="[field:title/]"><img class="imgfra" src="[field:picname/]" alt="[field:title/]" width="294" height="219" />
         <div class="acright">
           <h4>[field:title/]</h4>
@@ -72,9 +72,9 @@ $(".www51buycom").slide({ titCell:".num ul" , mainCell:".51buypic" , effect:"fol
 
 <!--服务项目开始-->
 <div class="case">
-  <p class="proname">SERVICE PROJECT</p>
+  <p class="proname">PRODUCT DISPLAY</p>
   <div class="kec">
-    <p class="prona">| <font color="#000000">服务项目</font> |</p>
+    <p class="prona">| <font color="#000000">产品展示</font> |</p>
   </div>
   <!--搜索栏开始-->
   <div class="lv_mmtopc">
@@ -90,10 +90,11 @@ $(".www51buycom").slide({ titCell:".num ul" , mainCell:".51buypic" , effect:"fol
   
   <!--项目分类开始-->
   <div class="prolanmu">
-    <div class="pro_lanfra"> {dede:channel type='son' row='10' typeid='4' currentstyle="
+    <div class="pro_lanfra"> {dede:channel type='son' row='10' typeid='13' currentstyle="
       <li class='hover'><a href='~typelink~' ~rel~><span>~typename~</span></a></li>
       "} <span> <a href="[field:typeurl/]" title="[field:typename/]">[field:typename/]</a> </span> {/dede:channel}
-      {dede:type typeid='4'} <a class="promore" href="[field:typelink/]"  title="查看更多">查看更多</a>{/dede:type} </div>
+      {dede:type typeid='15'}
+      <a class="promore" href="[field:typelink/]"  title="查看更多">查看更多</a>{/dede:type} </div>
   </div>
   <!--项目分类结束-->
   <div class="track"> 
@@ -116,10 +117,10 @@ $(document).ready(function() {$(".profra li .limg").hover(
     <div class="profra">
       <div class="view-port">
         <ul class="slider-container">
-          <li class="item"> {dede:arclist typeid='4' titlelen='50' orderby='pubdate' limit='0,4'}
+          <li class="item"> {dede:arclist typeid='13' titlelen='50' orderby='pubdate' limit='0,4'}
             <div class="limg"><a class="img" href="[field:arcurl/]" title="[field:title/]"><img src="[field:picname/]" alt="[field:title/]" width="220" height="165" /></a><a class="wor" href="[field:arcurl/]" title="[field:title/]">[field:title/]</a></div>
             {/dede:arclist} </li>
-          <li class="item"> {dede:arclist typeid='4' titlelen='50' orderby='pubdate' limit='5,4'}
+          <li class="item"> {dede:arclist typeid='13' titlelen='50' orderby='pubdate' limit='5,4'}
             <div class="limg"><a class="img" href="[field:arcurl/]" title="[field:title/]"><img src="[field:picname/]" alt="[field:title/]" width="220" height="165" /></a><a class="wor" href="[field:arcurl/]" title="[field:title/]">[field:title/]</a></div>
             {/dede:arclist} </li>
         </ul>
