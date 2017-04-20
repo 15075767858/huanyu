@@ -1,0 +1,470 @@
+body, div, dl, dt, dd, ul, ol, li, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, h2, font {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+input, button, textarea, select, optgroup, option {
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+ul, li, dl, dt, dd, ol {
+    display: block;
+    list-style: none;
+}
+
+img {
+    border: 0;
+}
+
+.fl {
+    float: left
+}
+
+.fr {
+    float: right
+}
+
+.clear {
+    clear: both;
+    height: 0px;
+    overflow: hidden
+}
+
+a {
+    text-decoration: none;
+    outline: 0;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.center {
+    text-align: center;
+}
+
+.center img {
+    border: 1px solid #ccc;
+}
+
+/* fixed */
+.fixed {
+    position: fixed;
+    width: 55px;
+    height: 212px;
+    right: 25px;
+    bottom: 50px;
+    _position: absolute;
+    _bottom: auto;
+    _top: expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop, 10)||0)-(parseInt(this.currentStyle.marginBottom, 10)||0)));
+    z-index: 999;
+}
+
+.main_content {
+    background-image: url("/skin/images/al/mainback.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.content {
+    width: 990px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#header_logo {
+    background-image: url("/skin/images/al/mainlogo.png");
+    height: 150px;
+}
+
+#header_nav {
+    background-image: url("/skin/images/al/mainnav.png");
+    height: 33px;
+}
+
+.nav {
+
+}
+
+img {
+    display: inline;
+}
+
+.nav li {
+    /*margin-top:-10px;
+    margin-bottom:0;*/
+    padding: 0 20px;
+    float: left;
+    display: inline;
+    position: relative;
+}
+
+.nav dl {
+    position: absolute;
+    overflow: visible;
+    display: none;
+}
+
+.nav li a {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 33px;
+    line-height: 33px;
+    font-weight: 700;
+    padding: 0 15px;
+    position: relative;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: #ffa933;
+}
+
+.nav li a:hover {
+    color: #ffa933;
+    background-color: white;
+}
+
+#main_body1 div {
+    display: inline;
+    width: 33%;
+}
+
+.float_left {
+    float: left;
+}
+
+.slideTxtBox {
+    margin-top: -5px;
+    position: relative;
+}
+
+.slider-buttons div {
+    position: absolute;
+    z-index: 3;
+    display: inline-block;
+    font-size: 0;
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+    top: 50%;
+    margin-top: -22px;
+    text-decoration: none;
+    background-position-y: -1px;
+    display: none;
+}
+
+.prev {
+    left: 15px;
+    background: url(/skin/images/al/menus.png) no-repeat transparent;
+}
+
+.prev:hover {
+    background-position: -48px -1px;
+}
+
+.next {
+    right: 15px;
+    background: url(/skin/images/al/menus.png) no-repeat -96px -1px transparent;
+}
+
+.next:hover {
+    background-position: -144px -1px;
+}
+
+.slideTxtBox .hd ul {
+    position: absolute;
+    right: 466px;
+    bottom: 10px;
+}
+
+.slideTxtBox .hd ul li {
+    float: left;
+    margin-left: 2px;
+    width: 12px;
+    height: 12px;
+    background: url(/skin/images/al/menus.png) no-repeat -2px -50px transparent;
+}
+
+.on {
+    background-position: -18px -50px !important;
+}
+
+.m-header {
+    border-width: 0;
+    border-style: none;
+    background-repeat: repeat-x;
+    background: url(/skin/images/al/greenbar.png);
+    color: #FFFFFF;
+    border: none;
+    background-color: #fff;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.m-header h3 {
+    font-size: 15px;
+    padding-left: 15px;
+    margin: 0;
+}
+
+.m-main {
+    width: 450px;
+    padding: 16px 16px 0;
+    float: left;
+}
+
+.m-main .m-main1 {
+    font-size: 14px;
+}
+
+.m-main a {
+    color: #06c;
+    font-size: 12px;
+}
+
+.m-main i {
+    display: inline-block;
+    background-image: url(/skin/images/al/sprites-step.png);
+    background-position: -255px -561px;
+    width: 26px;
+    height: 28px;
+    line-height: 28px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.m-main ul {
+    list-style: none;
+}
+
+.m-main ul li span {
+
+    display: inline-block;
+    height: 29px;
+    width: 29px;
+    background-position: -159px -971px;
+    vertical-align: middle;
+    background: url(/skin/images/al/sprites-step.png) -159px -976px no-repeat;
+
+}
+
+.m-main ul li label {
+    color: #999;
+    font-size: 12px;
+    width: 120px;
+    display: inline-block;
+}
+
+.m-main ul li span {
+
+}
+
+#suppller {
+    background: url(/skin/images/al/suppller2.jpg) no-repeat;
+    width: 236px;
+    height: 132px;
+    cursor: pointer;
+    float: left;
+    margin-left: 200px;
+    margin-top: 10px;
+}
+
+#suppller:hover {
+    background: url(/skin/images/al/suppller1.jpg) no-repeat;
+}
+
+.searchform .text {
+    float: left;
+    width: 141px;
+    height: 23px;
+    margin: 0 0 10px;
+    border: 1px solid #DDD;
+    box-shadow: none;
+    padding: 5px 4px;
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #333;
+    background-color: #fff;
+}
+
+.searchform .button {
+    float: left;
+    width: 39px;
+    height: 35px;
+    background: url(/skin/images/al/sprites-v2.png) no-repeat -112px -256px;
+    text-indent: -9999px;
+    border: none;
+}
+
+.product-main {
+    margin-top: 50px;
+}
+
+.product-left, .product-right {
+    float: left;
+}
+
+.product-left {
+    width: 190px;
+}
+
+.contactus {
+    margin-top: 20px;
+}
+
+.m-list a {
+    line-height: 30px;
+    color: #333;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    text-decoration: none;
+    white-space: nowrap;
+    word-wrap: normal;
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    border: none;
+    padding: 0 10px 0 15px;
+    margin: 0;
+    width: 160px;
+}
+
+.m-list a:hover {
+    color: #F90;
+    text-decoration: underline;
+}
+
+.m-list h3 {
+    height: 30px;
+    margin: 0;
+    float: none;
+    padding: 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.m-list ul li {
+    position: relative;
+}
+
+.rjiantou {
+    background: url(//u.alicdn.com/js/5v/esite/img/sprites-step.png) no-repeat 172px -1354px;
+}
+
+.m-list ul ul {
+    display: none;
+    border-top: 2px solid #999;
+    position: absolute;
+    top: 5px;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    border: 1px solid #ddd;
+    border-left: none;
+    -webkit-box-shadow: 3px 3px 4px rgba(0, 0, 0, .13);
+    -moz-box-shadow: 3px 3px 4px rgba(0, 0, 0, .13);
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, .13);
+    width: 190px;
+    background-color: #fff;
+    z-index: 100;
+}
+
+.product-right {
+    width: 792px;
+    height: 664px;
+    margin-left: 8px;
+}
+
+.product-show ul li {
+    float: left;
+    margin: 21px;
+}
+
+.product-show .imgborder {
+    width: 220px;
+    height: 220px;
+    border: 1px solid #ddd;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.product-show h4 {
+    margin: 0;
+}
+
+.product-show ul li img {
+    width: 220px;
+    margin: auto;
+    vertical-align: middle;
+}
+
+.message {
+    width: 100%;
+    border: 3px solid #DDD;
+    padding: 20px;
+
+}
+
+.message input {
+    border: 1px solid #000;
+}
+
+.message textarea {
+    border: 1px solid #000;
+
+    vertical-align: top;
+}
+
+.message li {
+    margin-bottom: 10px;
+
+}
+
+.message label {
+    display: inline-block;
+    width: 200px;
+}
+
+.message .msg_submit_bg {
+    background: #FF7519;
+    height: 40px;
+    padding: 0 20px;
+    line-height: 40px;
+    font-size: 18px;
+    color: #FFF;
+    cursor: pointer;
+    border-radius: 8px;
+
+}
+
+.message .yzm p {
+    padding-left: 205px;
+    padding-top: 30px;
+}
+
+.footpic {
+
+    margin-top: 220px;
+}
+
+.footer {
+    margin-top:20px;
+    height: 80px;
+    border-top:1px solid #999;
+    background-color: #f5f5f5;
+}
+.footer div{
+    text-align: center;
+    margin:3px;
+    color:#999;
+}

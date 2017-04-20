@@ -1,0 +1,42 @@
+<?php
+$z[0]=Array("global","",145,166);
+$z[0][4]['name']="cfg_dh";
+$z[1]=Array("global","",248,269);
+$z[1][4]['name']="cfg_qq";
+$z[2]=Array("type","<a href=\"[field:typelink /]\">[field:typename /]</a>",349,435);
+$z[2][4]['typeid']="15";
+$z[3]=Array("type","<dt>[field:typename /]</dt>",500,561);
+$z[3][4]['typeid']="1";
+$z[4]=Array("channel","\n          <dd><a href='[field:typeurl/]' rel='nofollow'>[field:typename/]</a></dd>\n          ",572,717);
+$z[4][4]['type']="son";
+$z[4][4]['typeid']="1";
+$z[5]=Array("type","<dt>[field:typename /]</dt>",795,856);
+$z[5][4]['typeid']="4";
+$z[6]=Array("channel","\n          <dd><a href='[field:typeurl/]' rel='nofollow'>[field:typename/]</a></dd>\n          ",867,1012);
+$z[6][4]['type']="son";
+$z[6][4]['typeid']="4";
+$z[7]=Array("type","<dt>[field:typename /]</dt>",1090,1151);
+$z[7][4]['typeid']="8";
+$z[8]=Array("channel","\n          <dd><a href='[field:typeurl/]' rel='nofollow'>[field:typename/]</a></dd>\n          ",1162,1307);
+$z[8][4]['type']="son";
+$z[8][4]['typeid']="8";
+$z[9]=Array("type","<dt>[field:typename /]</dt>",1385,1447);
+$z[9][4]['typeid']="12";
+$z[10]=Array("channel","\n          <dd><a href='[field:typeurl/]' rel='nofollow'>[field:typename/]</a></dd>\n          ",1458,1604);
+$z[10][4]['type']="son";
+$z[10][4]['typeid']="12";
+$z[11]=Array("type","<dt>[field:typename /]</dt>",1682,1744);
+$z[11][4]['typeid']="15";
+$z[12]=Array("channel","\n          <dd><a href='[field:typeurl/]' rel='nofollow'>[field:typename/]</a></dd>\n          ",1755,1901);
+$z[12][4]['type']="son";
+$z[12][4]['typeid']="15";
+$z[13]=Array("global","",2038,2064);
+$z[13][4]['name']="cfg_powerby";
+$z[14]=Array("global","",2092,2113);
+$z[14][4]['name']="cfg_dz";
+$z[15]=Array("global","",2204,2228);
+$z[15][4]['name']="cfg_beian";
+$z[16]=Array("type","\n       <li><a href=\"[field:typelink /]\">[field:typename /]</a></li>\n        ",2287,2399);
+$z[16][4]['typeid']="14";
+
+?>

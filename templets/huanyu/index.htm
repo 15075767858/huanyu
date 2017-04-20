@@ -1,227 +1,379 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>{dede:global.cfg_webname/}</title>
-<meta name="description" content="{dede:global.cfg_description/}" />
-<meta name="keywords" content="{dede:global.cfg_keywords/}" />
-<meta name="author" content="order by dede58.com" />
-<link href="/skin/css/style.css" rel="stylesheet">
-<script src="/skin/js/jquery.js"></script>
-<script src="/skin/js/functions.js"></script>
-<script src="/skin/js/nf_home.js"></script>
-<script src="/skin/js/search.js"></script>
-<script src="/skin/js/jquery.superslide.2.1.1.js"></script>
-<script src="/skin/js/menu.js"></script>
-<!--[if IE 6]><script src="/skin/js/dd_belatedpng.js" ></script><![endif]-->
-<script src="/skin/js/jquery.validator.js"></script>
-<script src="/skin/js/zh_cn.js"></script>
-<script src="/skin/js/mobile.js"></script>
-<script src="/skin/js/c.js"></script>
-<script src="/skin/js/page-comment.js"></script>
-<script>$(function(){$("#cur").addClass("cur");})</script>
+    <meta charset="UTF-8">
+    <title>{dede:global.cfg_webname/}</title>
 </head>
+<!--<script>
+    window.onload = function () {
+        var link111 = document.createElement("link");
+        link111.href = "/skin/css/style1.css?a=" + Math.random()
+        link111.rel = "stylesheet"
+        document.body.appendChild(link111)
+    }
+
+</script>-->
+<link href="/skin/css/style1.css?a=a" rel="stylesheet">
+<script src="/skin/js/jquery.js"></script>
+
 <body>
-{dede:include filename="head.htm"/}
-<!--最新活动开始-->
-<div class="activity">
-  <p class="proname">Product Center</p>
-  <div class="kec">
-    <p class="prona1">| <font color="#000000">产品中心</font> |</p>
-  </div>
-  <div class="clear"></div>
-  <div class="www51buycom">
-    <ul class="51buypic">
-      {dede:arclist typeid='13' row='8' titlelen='50' orderby='pubdate' infolen='300'}
-      <li><a href="[field:arcurl/]" title="[field:title/]"><img class="imgfra" src="[field:picname/]" alt="[field:title/]" width="294" height="219" />
-        <div class="acright">
-          <h4>[field:title/]</h4>
-          <p class="accon">　　[field:info/]...</p>
+<div class="main_content">
+    <div class="content">
+        <div id="header_logo">
+
         </div>
-        </a></li>
-      {/dede:arclist}
-    </ul>
-    <a class="prev" href="javascript:void(0)" title="prev"></a> <a class="next" href="javascript:void(0)" title="next"></a>
-    <div class="num">
-      <ul>
-      </ul>
+        <div id="header_nav">
+            <ul class="nav">
+                <li><a title="网站首页" href="/">Home</a></li>
+                {dede:channelartlist typeid='top'}
+                <li><a title="{dede:field name='typename'/}" href="{dede:field name='typeurl'/}">{dede:field
+                    name='typename'/}</a>
+                    <dl>
+                        {dede:channel type='son' noself='yes'}
+                        <dd><a title="[field:typename/]" href="[field:typeurl/]">[field:typename/]</a></dd>
+                        {/dede:channel}
+                    </dl>
+                </li>
+                {/dede:channelartlist}
+            </ul>
+        </div>
+        <div id="main_body1">
+
+            <div>
+                <a href="/plus/list.php?tid=13"> <img class="fl" src="/skin/images/al/mainb1.png" width="326px"
+                                                      height="737px" style="display: inline;"> </a>
+            </div>
+            <div>
+                <a href="/plus/list.php?tid=13"> <img class="fl" src="/skin/images/al/mainb2.png" width="313px"
+                                                      height="737px" style="display: inline;"> </a>
+            </div>
+            <div>
+                <a href="/plus/list.php?tid=13"> <img class="fl" src="/skin/images/al/mainb3.png" width="351px"
+                                                      height="307px" style=""> </a>
+                <a href="/plus/list.php?tid=13"> <img class="fl" src="/skin/images/al/mainb4.png" width="351px"
+                                                      height="430px" style=""> </a>
+            </div>
+            <div class="clear"></div>
+
+        </div>
+        <div id="main_body2">
+
+            <div class="fl"><img src="/skin/images/al/count1.png"></div>
+            <div class="fl"><img src="/skin/images/al/count2.png"></div>
+            <div class="fl"><img src="/skin/images/al/count3.png"></div>
+            <div class="fl"><img src="/skin/images/al/count4.png"></div>
+            <div class="fl"><img src="/skin/images/al/count5.png"></div>
+            <div class="fl"><img src="/skin/images/al/count6.png"></div>
+            <div class="fl"><img src="/skin/images/al/count7.png"></div>
+            <div class="fl"><img src="/skin/images/al/count8.png"></div>
+            <div class="fl"><img src="/skin/images/al/count9.png"></div>
+            <div class="fl"><img src="/skin/images/al/count10.png"></div>
+            <div class="fl"><img src="/skin/images/al/count11.png"></div>
+            <div class="fl"><img src="/skin/images/al/count12.png"></div>
+            <div class="clear"></div>
+        </div>
+        <div>
+            <a href="/plus/list.php?tid=10">
+                <img src="/skin/images/al/maincompany1.png">
+            </a>
+        </div>
+        <div>
+            <a href="/plus/list.php?tid=10">
+                <img src="/skin/images/al/maincompany2.png">
+            </a>
+        </div>
+        <div class="slideTxtBox">
+            <div class="bd">
+                <ul>
+                    <li><a href="/plus/list.php?tid=13"><img src="/skin/images/al/slider1.jpg"></a></li>
+                </ul>
+                <ul>
+                    <li><a href="/plus/list.php?tid=13"><img src="/skin/images/al/slider2.jpg"></a></li>
+                </ul>
+                <ul>
+                    <li><a href="/plus/list.php?tid=13"><img src="/skin/images/al/slider3.jpg"></a></li>
+                </ul>
+                <ul>
+                    <li><a href="/plus/list.php?tid=13"><img src="/skin/images/al/slider4.jpg"></a></li>
+                </ul>
+            </div>
+            <div class="slider-buttons">
+                <div class="prev"></div>
+                <div class="next"></div>
+            </div>
+            <div class="hd">
+                <ul></ul>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div>
+            <div>
+                <a href="/plus/list.php?tid=10">
+                    <img src="/skin/images/al/contact1.png" class="fl">
+                    <img src="/skin/images/al/contact2.png" class="fl">
+                    <img src="/skin/images/al/contact3.png" class="fl">
+                    <img src="/skin/images/al/contact4.png" class="fl">
+                    <img src="/skin/images/al/contact5.png" class="fl">
+                    <img src="/skin/images/al/contact6.png" class="fl">
+                </a>
+            </div>
+        </div>
+        <div>
+            <a href="/plus/list.php?tid=13">
+
+                <img src="/skin/images/al/temporapy.png" class="float_left">
+            </a>
+        </div>
+        <div>
+            <a href="/plus/list.php?tid=13">
+                <img src="/skin/images/al/farm1.png" class="float_left">
+            </a>
+        </div>
+        <div>
+            <a href="/plus/list.php?tid=13">
+                <img src="/skin/images/al/farm2.png" class="float_left">
+            </a>
+        </div>
+        <div>
+            <a href="/plus/list.php?tid=13">
+                <img src="/skin/images/al/farm3.png" class="float_left">
+            </a>
+        </div>
+        <div>
+            <a href="/plus/list.php?tid=13">
+                <img src="/skin/images/al/farm4.png" class="float_left">
+            </a>
+        </div>
+        <div>
+            <a href="/plus/list.php?tid=13">
+                <img src="/skin/images/al/farm5.png" class="float_left">
+            </a>
+        </div>
+        <div>
+            <a href="/plus/list.php?tid=13"><img src="/skin/images/al/farm6-1.png" class="float_left"></a>
+            <a href="/plus/list.php?tid=13"><img src="/skin/images/al/farm6-2.png" class="float_left"></a>
+            <a href="/plus/list.php?tid=13"><img src="/skin/images/al/farm6-3.png" class="float_left"></a>
+            <a href="/plus/list.php?tid=13"><img src="/skin/images/al/farm6-4.png" class="float_left"></a>
+        </div>
+        <div>
+            <a href="/plus/list.php?tid=13"><img src="/skin/images/al/farm7-1.png" class="float_left"></a>
+            <a href="/plus/list.php?tid=13"><img src="/skin/images/al/farm7-2.png" class="float_left"></a>
+            <a href="/plus/list.php?tid=13"><img src="/skin/images/al/farm7-3.png" class="float_left"></a>
+            <a href="/plus/list.php?tid=13"><img src="/skin/images/al/farm7-4.png" class="float_left"></a>
+        </div>
+        <div class="m-body">
+            <div class="m-header">
+                <h3 title="Company Introduction">
+                    Company Introduction
+                </h3>
+            </div>
+            <div class="m-main">
+                <div class="m-main1">Verification Type: <i></i><a href="/plus/list.php?tid=25">Onsite Check</a></div>
+                <ul>
+                    <li><span></span><label>Business Type:</label>Manufacturer</li>
+                    <li><span></span><label>Location:</label>Hebei,China(Mainland)</li>
+                    <li><span></span><label>Year Established:</label>2005</li>
+                </ul>
+                <a href="/plus/list.php?tid=25">Learm more about us </a>
+            </div>
+            <div id="suppller">
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="product-main">
+
+            <div class="product-left">
+                <div class="product-search">
+                    <form class="searchform" name="formsearch" action="{dede:global.cfg_cmsurl/}/plus/search.php">
+                        <input type="hidden" name="kwtype " value="0"/>
+                        <input type="text" class="text " name="q" placeholder="Search Products here"/>
+                        <input type="submit" title="搜索" class="button " value=""/>
+                    </form>
+                </div>
+                <div class="clear"></div>
+                <div class="product-list">
+                    <div class="m-header">
+                        <h3 title="Company Introduction">
+                            Product Categories
+                        </h3>
+                    </div>
+                    <div class="m-list">
+                        <ul>
+                            {dede:channelartlist typeid='top' typeid='13'}
+                            <li>
+                                <h3>
+                                    <a href='{dede:field name=' typeurl'/}' class="depth_2"><span class="icon10"></span>{dede:field
+                                    name='typename'/}</a>
+                                </h3>
+                                <ul>
+                                    {dede:sql sql='Select * from dede_arctype where reid=~id~ ORDER BY id limit 00,20'}
+                                    <li><a href="[field:typedir function='str_replace(" {cmspath}","",@me)'/]"
+                                        class="depth_3">[field:typename/]</a></li>
+                                    {/dede:sql}
+                                </ul>
+                            </li>
+                            {/dede:channelartlist}
+                        </ul>
+                    </div>
+                    <script>
+
+
+                        var mlist = jQuery(".m-list>ul>li");
+                        console.log(mlist)
+                        for (var i = 0; i < mlist.length; i++) {
+                            if (jQuery(mlist[i]).find("ul li").length) {
+                                jQuery(mlist[i]).addClass("rjiantou")
+                            }
+                        }
+                        //rjiantou
+
+                        mlist.hover(function (e) {
+                            if (jQuery(this).find("ul li").length) {
+                                jQuery(this).find('ul').show()
+                            }
+                        }, function (e) {
+                            jQuery(this).find('ul').hide()
+                        })
+                    </script>
+
+
+                    <!--<ul class="slider-container">
+                        <li class="item"> {dede:arclist typeid='13' titlelen='50' orderby='pubdate' }
+                            <div class="limg">
+                                <a class="img" href="[field:arcurl/]" title="[field:title/]"></a>
+                                <a class="wor" href="[field:arcurl/]" title="[field:title/]">[field:title/]</a>
+                            </div>
+
+                            {/dede:arclist}
+                        </li>
+                    </ul>-->
+                </div>
+                <div class="contactus">
+                    <a href="/plus/list.php?tid=25">
+                        <img src="/skin/images/al/contactus.jpg">
+                    </a>
+                </div>
+            </div>
+            <div class="product-right">
+
+                <div class="m-header">
+                    <h3>
+                        Main Products
+                    </h3>
+                </div>
+                <div class="product-show">
+                    <ul>
+                        {dede:arclist typeid='13' row='6' titlelen='50' orderby='pubdate' infolen='300'}
+                        <li><a href="[field:arcurl/]" title="[field:title/]">
+                            <div class="imgborder">
+                                <img class="imgfra" src="[field:picname/]" alt="[field:title/]"/>
+                            </div>
+                            <div class="acright">
+                                <h4>[field:title/]</h4>
+                                <p class="accon">　　[field:info/]...</p>
+                            </div>
+                        </a></li>
+                        {/dede:arclist}
+                    </ul>
+                </div>
+                <div class="clear"></div>
+                <!--在线留言开始-->
+                <div class="message">
+                    <h3>Online booking</h3>
+                    <form action="/plus/diy.php" enctype="multipart/form-data" method="post">
+                        <input type="hidden" name="action" value="post"/>
+                        <input type="hidden" name="diyid" value="1"/>
+                        <input type="hidden" name="do" value="2"/>
+                        <ul>
+                            <li>
+                                <!--<p class="message_title"> <span class="c_red">*</span> 姓名： </p>-->
+                                <p class="message_content">
+                                    <label for="xm">Name : </label>
+                                    <input type="text" name="xm" size="30" placeholder="Name"
+                                           onfocus="if (value =='您的尊称 Name'){value =''}" maxlength="10" id="xm"
+                                           data-rule="姓名:required;" max="10" min="1">
+                                </p>
+                                <span class="errMsg" id="errMsg_nickname"> </span></li>
+                            <li>
+                                <!--<p class="message_title"> <span class="c_red">*</span> 手机： </p>-->
+                                <p class="message_content">
+                                    <label for="dh">Phone : </label>
+                                    <input type="text" name="dh" size="30" placeholder="Phone" maxlength="11" id="dh"
+                                           data-rule="手机号码:required;mobile|tel" max="11" min="11">
+                                </p>
+                                <span class="errMsg" id="errMsg_telephone"> </span></li>
+                            <li class="contentb">
+                                <!--<p class="message_title"> <span class="c_red">*</span> 留言内容： </p>-->
+                                <p class="message_content">
+                                    <label for="ly">Content : </label>
+                                    <textarea name="ly" cols="45" rows="5" id="ly"
+                                              placeholder="Enter your inquiry details such as product name, color, size, MOQ, FOB, etc."
+                                              data-rule="留言内容:required;"></textarea>
+                                </p>
+                                <span class="errMsg" id="errMsg_content"> </span></li>
+                            <input type="hidden" name="dede_fields" value="xm,text;dh,text;ly,text"/>
+                            <input type="hidden" name="dede_fieldshash" value="6f46d35a1723114a05c4007059208ff1"/>
+                            <li class="yzm" style="padding-left:0px;">
+                                <p class="message_sub">
+                                    <input type="submit" class="msg_submit_bg" title="提交留言" value="Send">
+                                </p>
+                            </li>
+                        </ul>
+                    </form>
+                </div>
+
+                <!--在线留言结束-->
+            </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="footpic">
+            <a href="/plus/list.php?tid=25">
+                <img src="/skin/images/al/looking.jpg" alt="">
+            </a>
+        </div>
     </div>
-  </div>
-  <script>
-/*鼠标移过，左右按钮显示*/
-$(".www51buycom").hover(function(){
-	$(this).find(".prev,.next").fadeTo("show",1);
-},function(){
-	$(this).find(".prev,.next").show();
-})
-/*鼠标移过某个按钮 高亮显示*/
-$(".prev,.next").hover(function(){
-	$(this).fadeTo("show",1);
-},function(){
-	$(this).fadeTo("show",1);
-})
-$(".www51buycom").slide({ titCell:".num ul" , mainCell:".51buypic" , effect:"fold", autoPlay:true, delayTime:700 , autoPage:true });
+</div>
+<div class="footer">
+    <div>Address:Hebei City ,Huanghua,six mile Street</div>
+    <div>phone : 0137-5680471</div>
+    <div>ICP record number:Beijing ICP No. 10012705 -8</div>
+</div>
+
+<script src="/skin/js/jquery.superslide.2.1.1.js"></script>
+<script type="text/javascript">
+    jQuery(".slideTxtBox").slide({
+        autoPlay: true,
+        titCell: ".hd ul",
+        autoPage: "<li></li>"
+    });
+    var next = jQuery(".slideTxtBox .next")
+    var prev = jQuery(".slideTxtBox .prev")
+    jQuery(".slideTxtBox").mousemove(function (e) {
+        if (e.target.nodeName != "IMG") {
+            return;
+        }
+        if (e.offsetX > e.target.width / 2) {
+            next.show()
+            prev.hide()
+        } else {
+            next.hide()
+            prev.show()
+        }
+    })
+    jQuery(".slideTxtBox").mouseleave(function () {
+        next.hide()
+        prev.hide()
+
+    })
 </script>
-  <div class="viewmore">
-    <label>&nbsp;</label>
-    {dede:type typeid='3'} <a href="[field:typelink/]"  title="查看更多">查看更多</a>{/dede:type}
-    <label>&nbsp;</label>
-  </div>
-</div>
-<!--最新活动结束--> 
+<script>
+    $(".nav li").hover(function () {
+        $(this).find("dl").show();
+    }, function () {
+        $(this).find("dl").hide();
+    })
 
-<!--服务项目开始-->
-<div class="case">
-  <p class="proname">PRODUCT DISPLAY</p>
-  <div class="kec">
-    <p class="prona">| <font color="#000000">产品展示</font> |</p>
-  </div>
-  <!--搜索栏开始-->
-  <div class="lv_mmtopc">
-    <div class="search">
-      <form  name="formsearch" action="{dede:global.cfg_cmsurl/}/plus/search.php">
-        <input type="hidden" name="kwtype" value="0" />
-        <input type="text" class="text" name="q" value="请输入关键词"/>
-        <input type="submit" title="搜索" class="button" value=""/>
-      </form>
-    </div>
-  </div>
-  <!--搜索栏结束--> 
-  
-  <!--项目分类开始-->
-  <div class="prolanmu">
-    <div class="pro_lanfra"> {dede:channel type='son' row='10' typeid='13' currentstyle="
-      <li class='hover'><a href='~typelink~' ~rel~><span>~typename~</span></a></li>
-      "} <span> <a href="[field:typeurl/]" title="[field:typename/]">[field:typename/]</a> </span> {/dede:channel}
-      {dede:type typeid='15'}
-      <a class="promore" href="[field:typelink/]"  title="查看更多">查看更多</a>{/dede:type} </div>
-  </div>
-  <!--项目分类结束-->
-  <div class="track"> 
-    <script language="javascript">
-$(document).ready(function() {$(".profra li .limg").hover(
-	   function(){
-		
-		   $(this).find(".wor").css({"background":"#22b38a"});
-		  
-	   },
-	   function(){
-		  
-		    $(this).find(".wor").css({"background":"#1a1d22"});
-	   }
-	)
-	
-});
-	
 </script>
-    <div class="profra">
-      <div class="view-port">
-        <ul class="slider-container">
-          <li class="item"> {dede:arclist typeid='13' titlelen='50' orderby='pubdate' limit='0,4'}
-            <div class="limg"><a class="img" href="[field:arcurl/]" title="[field:title/]"><img src="[field:picname/]" alt="[field:title/]" width="220" height="165" /></a><a class="wor" href="[field:arcurl/]" title="[field:title/]">[field:title/]</a></div>
-            {/dede:arclist} </li>
-          <li class="item"> {dede:arclist typeid='13' titlelen='50' orderby='pubdate' limit='5,4'}
-            <div class="limg"><a class="img" href="[field:arcurl/]" title="[field:title/]"><img src="[field:picname/]" alt="[field:title/]" width="220" height="165" /></a><a class="wor" href="[field:arcurl/]" title="[field:title/]">[field:title/]</a></div>
-            {/dede:arclist} </li>
-        </ul>
-      </div>
-      <div class="bullet-pagination"></div>
-    </div>
-  </div>
-  <script type="text/javascript" src="/skin/js/jquery-easing-1.3.0.js" ></script> 
-  <script type="text/javascript" src="/skin/js/jquery.silver_track.js"  charset="utf-8"></script> 
-  <script type="text/javascript" src="/skin/js/jslides.js" ></script> 
-  <script>
-var track = $(".slider-container").silverTrack();
-var parent = track.container.parents(".track");
-//下面三个小圆点
-track.install(new SilverTrack.Plugins.BulletNavigator({
-container: $(".bullet-pagination", parent)
-}));
-track.start();
-</script> 
-</div>
-<!--服务项目结束--> 
-
-<!--案例展示开始-->
-<div class="newsfra">
-  <p class="proname">RECRUITMENT INFORMATION</p>
-  <div class="kec">
-    <p class="prona1">| <font color="#000000">招聘信息</font> |</p>
-  </div>
-  <div class="news">
-    <ul class="newsul">
-      {dede:arclist typeid='12' row='4' titlelen='50' orderby='pubdate' infolen='100'}
-      <li><a href="[field:arcurl/]" title="[field:title/]"><em></em><img class="newsimg" src="[field:picname/]" alt="[field:title/]" width="100" height="75" />
-        <div class="newsword">
-          <p class="top"><span>[field:title/]…</span>
-            <label>[field:pubdate function="MyDate('Y/m/d',@me)"/]</label>
-          </p>
-          <div class="newscon">　　[field:info/]...</div>
-        </div>
-        </a></li>
-      {/dede:arclist}
-    </ul>
-    <p class="more">{dede:type typeid='12'} <a href="[field:typelink/]"  data-ignore="true" title="查看更多"><font>查看更多</font>To view more</a>{/dede:type} </p>
-  </div>
-</div>
-<!--案例展示结束-->
-
-<div class="newsframe">
-  <div class="news_fra"> 
-    <!--资讯中心开始-->
-    <div class="news_fleft">
-      <P class="p1"><span>资讯中心</span>
-        <label onclick="location='/a/zixunzhongxin/'">查看更多</label>
-      </P>
-      <p class="p2">THE LATEST INFORMATION</p>
-      <ul class="news_ful">
-        {dede:arclist typeid='2' row='5' titlelen='60' orderby='pubdate'}
-        <li><a href="[field:arcurl/]" title="[field:title/]">
-          <p>[field:title/]</p>
-          <span>[field:pubdate function="MyDate('Y-m-d',@me)"/]</span></a></li>
-        {/dede:arclist}
-      </ul>
-    </div>
-    <!--资讯中心结束--> 
-    
-    <!--联系方式开始-->
-    <div class="news_fright">
-      <p class="p1">咨询热线</p>
-      <p class="p2">+{dede:global.cfg_sjhm /}</p>
-      <div class="news_frcon" style=" cursor:pointer;">
-        <div class="news_frr">
-          <div class="news_mapcon">
-            <label>地址：</label>
-            <span>{dede:global.cfg_dizhi/}</span></div>
-          <div class="news_mapcon">
-            <label>电话：</label>
-            <span>{dede:global.cfg_dh /}</span></div>
-          <div class="news_mapcon">
-            <label>微信：</label>
-            <span>qq211687</span>
-          </div>
-          <span id="urlmap"><a title="查看详细地图" class="c_047" href="" onclick="showMapObj.show(117.400217,38.401522)">查看详细地图</a></span>
-
-        </div>
-        <p class="mapimg"><!--百度静态地图生成助手http://api.map.baidu.com/lbsapi/staticmap/staticmap-helper.html-->
-          <img src="http://api.map.baidu.com/staticimage?center=117.400217,38.401522&amp;width=150&amp;height=150&amp;zoom=11"  alt="地图"></p>
-      </div>
-    </div>
-    <!--联系方式结束--> 
-  </div>
-</div>
-{dede:include filename="footer.htm"/}
 </body>
 </html>
-
-<!--
-<div class="mapct">
-  <a class="mapimg" href="javascript:void(0)" onclick="showMapObj.show(117.400217,38.401522)" rel="nofollow">
-    <img src="http://api.map.baidu.com/staticimage?center=117.400217,38.401522&amp;width=638&amp;height=230&amp;zoom=11">
-  </a>
-  <span id="urlmap"><a title="查看详细地图" class="c_047" href="javascript:void(0)" onclick="showMapObj.show(117.400217,38.401522)">查看详细地图</a></span>
-  <input type="hidden" id="module-coordinate" value="117.400217,38.401522">
-  <input type="hidden" id="module-coordinate-name" value="黄骅市环宇五金厂">
-  <script type="text/javascript" src="http://api.map.baidu.com/api?v=1.4"></script><script type="text/javascript" src="http://api.map.baidu.com/getscript?v=1.4&amp;ak=&amp;services=&amp;t=20150522093217"></script>
-</div>-->

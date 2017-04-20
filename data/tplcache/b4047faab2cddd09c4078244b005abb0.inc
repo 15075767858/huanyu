@@ -1,0 +1,4 @@
+<li>
+                        {dede:type}
+                        
+                    </li>

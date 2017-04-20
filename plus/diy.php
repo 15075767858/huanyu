@@ -9,6 +9,7 @@
  * @license        http://help.dedecms.com/usersguide/license.html
  * @link           http://www.dedecms.com
  */
+
 require_once(dirname(__FILE__)."/../include/common.inc.php");
 
 $diyid = isset($diyid) && is_numeric($diyid) ? $diyid : 0;
@@ -41,6 +42,7 @@ if($action == 'post')
         $dede_fieldshash = empty($dede_fieldshash) ? '' : trim($dede_fieldshash);
         if(!empty($dede_fields))
         {
+
             if($dede_fieldshash != md5($dede_fields.$cfg_cookie_encode))
             {
                 showMsg('数据校验不对，程序返回', '-1');

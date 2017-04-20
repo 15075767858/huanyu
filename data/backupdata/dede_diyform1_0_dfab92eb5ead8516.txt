@@ -1,0 +1,4 @@
+INSERT INTO `dede_diyform1` VALUES('5','0','啊啊啊','dsa','ds');
+INSERT INTO `dede_diyform1` VALUES('4','0','add','15075767858','sd');
+INSERT INTO `dede_diyform1` VALUES('6','0','123','11','22');
+INSERT INTO `dede_diyform1` VALUES('7','0','888','666','666');
